@@ -132,7 +132,6 @@ public class Main extends JFrame {
             @Override
             public void run() {
                 Main frame = new Main();
-                frame.setImage(new File(FOLDER, "IMG_5252.JPG"));
                 frame.setVisible(true);
             }
         });
